@@ -7,10 +7,13 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["StudentOverflow.API/StudentOverflow.API.csproj", "StudentOverflow.API/"]
-RUN dotnet restore "StudentOverflow.API/StudentOverflow.API.csproj"
+COPY ["src/StudentOverflow.API/StudentOverflow.API.csproj", "src/StudentOverflow.API/"]
+COPY ["src/StudentOverflow.Infrastructure/StudentOverflow.Infrastructure.csproj", "src/StudentOverflow.Infrastructure/"]
+COPY ["src/StudentOveflow.Application/StudentOveflow.Application.csproj", "src/StudentOveflow.Application/"]
+COPY ["src/StudentOverflow.Domain/StudentOverflow.Domain.csproj", "src/StudentOverflow.Domain/"]
+RUN dotnet restore "src/StudentOverflow.API/StudentOverflow.API.csproj"
 COPY . .
-WORKDIR "/src/StudentOverflow.API"
+WORKDIR "/src/src/StudentOverflow.API"
 RUN dotnet build "StudentOverflow.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
