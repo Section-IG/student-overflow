@@ -418,6 +418,9 @@ FodyWeavers.xsd
 # TCR
 !TCR/
 
+# Environment files
+*.env
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
