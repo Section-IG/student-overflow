@@ -29,7 +29,7 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "StudentOverflow.FrontEnd", 
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7D5540AC-C908-41B3-AA80-4C0E3C702E2C}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StudentOverflow.DB", "..\StudentOverflow.DB\StudentOverflow.DB.sqlproj", "{83A9708C-D880-4168-B351-B4DAFDAFD562}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StudentOverflow.DB", "src\StudentOverflow.DB\StudentOverflow.DB.sqlproj", "{83A9708C-D880-4168-B351-B4DAFDAFD562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
