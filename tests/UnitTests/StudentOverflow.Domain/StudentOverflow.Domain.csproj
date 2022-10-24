@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <PackageId>0a000ec1-c113-421d-b1b1-f5f200f2178e</PackageId>
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
