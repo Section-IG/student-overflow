@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  studentoverflow.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  db:
+    container_name: StudentOverflowDB
+    env_file: [development.env]
+    restart: always
+    ports:
+        - "1433:1433"

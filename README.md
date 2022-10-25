@@ -4,3 +4,6 @@
 # Student Overflow
 
 A Stack-Overflow like app customized for students and teachers from the Henallux.
+
+## Built with TCR
+Use the following command to activate TCR in a terminal: `.\tcr\Windows\tcr.exe -b . -w . -l csharp`

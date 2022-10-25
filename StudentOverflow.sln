@@ -9,23 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E717200-73D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A08515D0-E169-4392-B868-18B18D20DD1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.Domain", "src\StudentOverflow.Domain\StudentOverflow.Domain.csproj", "{E1208E14-EB49-49DA-9CC0-7F86EF692467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.Domain", "src\StudentOverflow.Domain\StudentOverflow.Domain.csproj", "{E1208E14-EB49-49DA-9CC0-7F86EF692467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.Infrastructure", "src\StudentOverflow.Infrastructure\StudentOverflow.Infrastructure.csproj", "{68AB5FCE-9690-4904-94E5-B6A750DDA5F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.Infrastructure", "src\StudentOverflow.Infrastructure\StudentOverflow.Infrastructure.csproj", "{68AB5FCE-9690-4904-94E5-B6A750DDA5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOveflow.Application", "src\StudentOveflow.Application\StudentOveflow.Application.csproj", "{F91E7BA6-BF8D-4756-91F6-3D6CEE3390A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOveflow.Application", "src\StudentOveflow.Application\StudentOveflow.Application.csproj", "{F91E7BA6-BF8D-4756-91F6-3D6CEE3390A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{0817E5F2-72AB-4719-93C0-E3314218AC69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.Domain", "tests\UnitTests\StudentOverflow.Domain\StudentOverflow.Domain.csproj", "{64193E2C-A668-40A8-8B94-FEC7398A259C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.Domain", "tests\UnitTests\StudentOverflow.Domain\StudentOverflow.Domain.csproj", "{64193E2C-A668-40A8-8B94-FEC7398A259C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.Infrastructure", "tests\UnitTests\StudentOverflow.Infrastructure\StudentOverflow.Infrastructure.csproj", "{00A863DF-E59B-4497-8815-1D4FFB431011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.Infrastructure", "tests\UnitTests\StudentOverflow.Infrastructure\StudentOverflow.Infrastructure.csproj", "{00A863DF-E59B-4497-8815-1D4FFB431011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.Application", "tests\UnitTests\StudentOverflow.Application\StudentOverflow.Application.csproj", "{7A695EDA-2F7E-450F-9C48-95EF8E81BC6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.Application", "tests\UnitTests\StudentOverflow.Application\StudentOverflow.Application.csproj", "{7A695EDA-2F7E-450F-9C48-95EF8E81BC6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOverflow.API", "tests\UnitTests\StudentOverflow.API\StudentOverflow.API.csproj", "{760FA257-DE67-471B-9903-9568544CF1EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentOverflow.API", "tests\UnitTests\StudentOverflow.API\StudentOverflow.API.csproj", "{760FA257-DE67-471B-9903-9568544CF1EE}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "StudentOverflow.FrontEnd", "src\StudentOverflow.FrontEnd\StudentOverflow.FrontEnd.esproj", "{9B1010CD-ECC3-4EF9-9476-B7CAF8C6A9FC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StudentOverflow.Storage", "src\StudentOverflow.Storage\StudentOverflow.Storage.sqlproj", "{0E9BBED1-3B64-449C-B983-4CDCA45B926B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{730F421A-7338-47B9-B383-63780608AA83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,16 @@ Global
 		{9B1010CD-ECC3-4EF9-9476-B7CAF8C6A9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1010CD-ECC3-4EF9-9476-B7CAF8C6A9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B1010CD-ECC3-4EF9-9476-B7CAF8C6A9FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{730F421A-7338-47B9-B383-63780608AA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730F421A-7338-47B9-B383-63780608AA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730F421A-7338-47B9-B383-63780608AA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730F421A-7338-47B9-B383-63780608AA83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +100,7 @@ Global
 		{7A695EDA-2F7E-450F-9C48-95EF8E81BC6F} = {0817E5F2-72AB-4719-93C0-E3314218AC69}
 		{760FA257-DE67-471B-9903-9568544CF1EE} = {0817E5F2-72AB-4719-93C0-E3314218AC69}
 		{9B1010CD-ECC3-4EF9-9476-B7CAF8C6A9FC} = {8E717200-73D3-4FB7-9A1A-45D2A1D942C6}
+		{0E9BBED1-3B64-449C-B983-4CDCA45B926B} = {8E717200-73D3-4FB7-9A1A-45D2A1D942C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60FD29EF-734F-445B-8964-1A8CA8B8D5AA}

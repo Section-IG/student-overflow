@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  studentoverflow.api:
+    image: ${DOCKER_REGISTRY-}studentoverflowapi
+    build:
+      context: .
+      dockerfile: src/StudentOverflow.API/Dockerfile
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
