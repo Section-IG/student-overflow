@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  studentoverflow.api:
-    image: ${DOCKER_REGISTRY-}studentoverflowapi
+  api:
+    image: ${DOCKER_REGISTRY-}studentoverflow.api
     build:
       context: .
       dockerfile: src/StudentOverflow.API/Dockerfile
